@@ -1,0 +1,50 @@
+/* Developer:  Frankie Barrios
+    Date:04/06/2018
+    Purpose: Travel Site Assignment
+*/
+
+.col1, .col2 {
+  width: 45%;
+}
+
+.col3 {
+  width: 100%;
+}
+
+@media screen and (max-width: 740px) {
+  .sidebar {
+    width: 100%;
+    float: none;
+  }
+}
+
+@media screen and (max-width:380px) {
+  .col1, .col2, .col3 {
+    float: none;
+    width: 100%;
+  }
+  .sidebox-1 {
+    display: none;
+  }
+}
+
+@media screen and (max-width:740px) {
+  .menu {
+      {
+      width: 200px;
+    }
+    .menu a {
+      background-color: #eee;
+      color: black;
+      display: block;
+      padding: 12px;
+      text-decoration: none;
+    }
+    .menu a:hover {
+      background-color: #ccc;
+    }
+    .menu a.active {
+      background-color: #4CAF50;
+      color: white;
+    }
+  }

@@ -1,0 +1,82 @@
+/* Developer:  Frankie Barrios
+    Date:04/06/2018
+    Purpose: Travel Site Assignment
+*/
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: DodgerBlue;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+  max-width: 1200px;
+  background-color: 	#00BFFF;
+  font-size: 20px;
+}
+
+h2 {
+  text-align: center;
+}
+
+header {
+  background-color: white;
+  padding: 40px 25px;
+}
+
+.cols {
+  padding: 50px 10px 5px 10px;
+  line-height: 1.5
+}
+
+img {
+  width: 100%;
+  height: auto;
+  margin: 0 0 10px 0;
+}
+
+.col1, .col2, .col3 {
+  float: left;
+  width: 30%;
+  margin-right: 5%;
+}
+
+.col3 {
+  margin-right: 0%;
+}
+
+
+.sidebar {
+  width: 30%;
+  float: left;
+}
+
+.sidebox-1 {
+  background-color: #9bdaef;
+  padding: 20px;
+  font-size: 13px;
+  margin: 0 0 15px 0;
+}
+
+.sidebox-2 {
+  background-color: #efdb7f;
+  padding: 20px;
+  font-size: 13px;
+  margin: 0 0 15px 0;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+nav {
+    display: block;
+    color: white;
+    
+}
